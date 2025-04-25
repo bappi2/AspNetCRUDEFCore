@@ -1,0 +1,6 @@
+﻿services:
+  aspnetcrudefcore:
+    image: aspnetcrudefcore
+    build:
+      context: .
+      dockerfile: AspNetCRUDEFCore/Dockerfile
