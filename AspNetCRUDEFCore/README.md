@@ -14,6 +14,7 @@ A simple ASP.NET Core CRUD project using Entity Framework Core.
    ```bash
    dotnet ef migrations add "Initial Migration"
    dotnet ef database update
+    ```
 
 ## Technologies
 ASP.NET Core
@@ -25,5 +26,11 @@ Configure your database connection string in appsettings.json.
 
 Enable retry logic for transient Azure errors.
 
+## SQL
+```sql
+Selet * from Sys.Tables
+```
+## Source 
+https://www.youtube.com/watch?v=6YIRKBsRWVI&ab_channel=SameerSaini
 ## Author
 Mohammad Meftauddin
