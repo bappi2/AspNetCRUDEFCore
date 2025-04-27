@@ -12,7 +12,9 @@ A simple ASP.NET Core CRUD project using Entity Framework Core.
 1. Clone the repository.
 2. Run database migrations:
    ```bash
+   dotnet ef migrations add "Initial Migration"
    dotnet ef database update
+
 ## Technologies
 ASP.NET Core
 Entity Framework Core

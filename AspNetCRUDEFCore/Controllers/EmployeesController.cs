@@ -6,5 +6,9 @@ namespace AspNetCRUDEFCore.Controllers;
 [Route("api/[controller]")]
 public class EmployeesController : ControllerBase
 {
-    
+    [HttpGet]
+    public IActionResult GetAllEmployees()
+    {
+        return Ok();
+    }
 }
